@@ -1,0 +1,27 @@
+Package: techjobsPkg
+Type: Package
+Title: Tools for Filtering and Summarizing Tech Job Listings
+Version: 0.1.0
+Authors@R: 
+    person(given = "Your",
+           family = "Name",
+           role = c("aut", "cre"),
+           email = "your.email@example.com")
+Description: Provides helper functions for filtering technology-related job postings,
+    counting tech jobs by category, summarizing salaries by category, and creating
+    salary visualizations from job listing datasets. The package is designed for
+    simple exploratory analysis of recruitment and salary data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    ggplot2,
+    rlang,
+    stringr
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://example.com
+Video: REPLACE_WITH_YOUR_VIDEO_URL
+RoxygenNote: 7.3.2
